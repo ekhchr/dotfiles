@@ -1,11 +1,11 @@
 # Message
-echo
-echo 'mathemagician '
-echo '              '  
-echo ' 1+1=2   /\   '
-echo '      \ c")   '
-echo '       ;-/\>  '
-echo '         ||   '
+echo '\u001b[31m      ' # echo will be displayed in red
+echo 'mathemagician   '
+echo '                '  
+echo '     d/dx  /\   '
+echo '        \ c")   '
+echo '         ;-/\>  '
+echo '           ||   '
 echo
 
 # Prompt
