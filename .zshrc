@@ -1,6 +1,11 @@
 # Message
 echo
-motivate # req https://github.com/mubaris/motivate
+echo 'mathemagician '
+echo '              '  
+echo ' 1+1=2   /\   '
+echo '      \ c")   '
+echo '       ;-/\>  '
+echo '         ||   '
 echo
 
 # Prompt
