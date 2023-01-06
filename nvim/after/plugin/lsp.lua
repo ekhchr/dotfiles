@@ -12,4 +12,10 @@ lsp.ensure_installed({
 	'clangd',
 })
 
+lsp.setup_nvim_cmp({
+  sources = {
+    {name = 'nvim_lsp'},
+  }
+})
+
 lsp.setup()
