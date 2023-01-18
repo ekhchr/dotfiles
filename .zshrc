@@ -21,6 +21,7 @@ HISTSIZE=10000
 
 # Alias (for both OS)
 alias vi="nvim"
+alias reload="source ~/.zshrc"
 
 # OS specific
 case `uname` in
@@ -31,9 +32,14 @@ case `uname` in
 
         # Alias
         alias brewu="brew upgrade"
-        alias reload="source ~/.zshrc"
         ;;
     Linux)
-        # commands for Linux go here
-        ;;
+        # Plugins
+	source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+	source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+	# Alias
+	alias dnfu="sudo dnf upgrade && flatpak upgrade"
+	alias matlab="/usr/local/MATLAB/R2022b/bin/matlab"	
+	;;
 esac
