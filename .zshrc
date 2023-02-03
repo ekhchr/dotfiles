@@ -35,11 +35,11 @@ case `uname` in
         ;;
     Linux)
         # Plugins
-	source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-	source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-	# Alias
-	alias dnfu="sudo dnf upgrade && flatpak upgrade"
-	alias matlab="/usr/local/MATLAB/R2022b/bin/matlab"	
-	;;
+    	source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+    	source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+    
+    	# Alias
+    	alias dnfu="sudo dnf update && sudo dnf upgrade -y && flatpak upgrade"
+    	alias matlab="/usr/local/MATLAB/R2022b/bin/matlab"	
+    	;;
 esac
