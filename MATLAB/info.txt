@@ -1,0 +1,1 @@
+dir ~/.local/share/applications/matlab.desktop

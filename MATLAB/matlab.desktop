@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=R2022b
+Name=MATLAB R2022b
+Comment=Scientific computing software
+Icon=/usr/local/MATLAB/R2022b/bin/glnxa64/cef_resources/matlab_icon.png
+Exec=bash -c "export TMPDIR=~/.cache/matlab-tmp; /usr/local/MATLAB/R2022b/bin/matlab -desktop; rm -r $TMPDIR"
+Terminal=False
