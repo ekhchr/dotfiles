@@ -39,7 +39,6 @@ case `uname` in
     	source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
     
     	# Alias
-    	alias dnfu="sudo dnf update && sudo dnf upgrade -y && flatpak upgrade"
-    	alias matlab="/usr/local/MATLAB/R2022b/bin/matlab"	
+    	alias dnfu="sudo dnf update && sudo dnf -y upgrade && flatpak upgrade"
     	;;
 esac
